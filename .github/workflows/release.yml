@@ -12,9 +12,10 @@ on:
         required: true
         default: 'final'
         type: choice
-        options:
-          - final
-          - final-en-terms
+        options: [final, final-en-terms]
+
+permissions:
+  contents: write
 
 jobs:
   pack-and-release:
@@ -52,6 +53,12 @@ jobs:
           echo "$SUM  wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip" > "wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.sha256"
           echo "sha=$SUM" >> "$GITHUB_OUTPUT"
 
+      # (Optional) Ensure the tag exists and points to this commit
+      - name: Create/Update tag
+        run: |
+          git tag -f "v${{ inputs.version }}" "${GITHUB_SHA}"
+          git push -f origin "refs/tags/v${{ inputs.version }}"
+
       - name: Create GitHub Release (draft)
         uses: softprops/action-gh-release@v2
         with:
@@ -65,4 +72,5 @@ jobs:
           files: |
             wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip
             wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.sha256
+          token: ${{ secrets.GITHUB_TOKEN }}
 
