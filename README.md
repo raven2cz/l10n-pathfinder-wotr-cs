@@ -77,8 +77,19 @@ První průchod překladem proběhl přes **GPT-5-mini**, poté následovala **m
 ---
 
 ## Podpora autora
-Pokud chceš podpořit další práci na lokalizacích, můžeš mi **koupit kávu** ☕:  
-**https://www.buymeacoffee.com/raven2cz**  
+Pokud chceš podpořit další práci na lokalizacích, můžeš mi **koupit kávu** ☕  
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/raven2cz">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
+         alt="Buy Me A Coffee" height="44">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.buymeacoffee.com/raven2cz">
+    <img src="images/qr-code.png" alt="Buy Me a Coffee – QR" width="160">
+  </a>
+</p>
+
 Překlad je zdarma a nekomerční.
 
 ---
