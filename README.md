@@ -81,14 +81,11 @@ Pokud chceš podpořit další práci na lokalizacích, můžeš mi **koupit ká
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/raven2cz">
-    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
-         alt="Buy Me A Coffee" height="44">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.buymeacoffee.com/raven2cz">
-    <img src="images/qr-code.png" alt="Buy Me a Coffee – QR" width="160">
-  </a>
+    <img src="images/qr-code.png" alt="Buy Me a Coffee – QR (optional support)" width="220">
+  </a><br/>
+  <sub>QR kód je pro BuyMeCoffee službu; překlad zůstává zdarma a nekomerční.</sub>
 </p>
+
 
 Překlad je zdarma a nekomerční.
 
