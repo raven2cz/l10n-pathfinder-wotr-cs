@@ -58,8 +58,8 @@ Detailní popis v **[MERGE_NOTES.md](./MERGE_NOTES.md)**, zkráceně:
 
 ---
 
-## Ke stažení
-- **GitHub Releases:** https://github.com/raven2cz/l10n-pathfinder-wotr-cs/releases
+## Ke stažení češtiny
+- **GitHub Releases:** https://github.com/raven2cz/l10n-pathfinder-wotr-cs/releases (vezmi nejvyšší verzi, sekce Assets!)
 - **Nexus Mods (doporučeno pro hráče):** odkaz doplníme po prvním zveřejnění.
 - **Komunitni-preklady.org**: odkaz doplníme po prvním zveřejnění.
 
