@@ -1,0 +1,25 @@
+guid	old	new
+92f72bcd-5598-4aef-b943-51910a0d519c	Svitok	Svitek
+02127d26-b682-49be-af74-4b5ab9a07ca3	Svitok	Svitek
+bfcb3822-0ab4-4c1f-b0b0-a0919a72d0fd	Kolo {round} začíná.	<b>{count}</b> <b>{target}</b> byli vzkříšeni.
+39929bf8-5dc8-4911-b746-8591f3d068e8	<b>{target}</b> přeskočí své kolo.	Kole <b>{target}</b> začíná.
+483d6126-721e-49c8-8dfa-170fd8b665fe	<b>{count}</b> <b>{target}</b> zemřelo.	<b>Tah {count}</b>: <b>{source}</b>
+b88c355e-5d38-4a8d-be50-55a3ee0dfd71	<b>{source}</b> nemůže odemykat zámky.	<b>{count}</b> <b>{target}</b> umírá.
+7ba1c190-781b-4191-bf57-5ec6f61f2ea6	<b>{source}</b> odhalí past.	Čas plynul
+2ef2b59d-e390-45e3-9dba-030f7259271c	<b>{source}</b> umírá!	<b>{source}</b>: {text}
+7d6592b4-53e0-4243-aed7-a35f856e1d2e	<b>{source}</b> je těžce přetížen.	<b>{source}</b> umírá!
+dd08fdd5-e37a-4c59-adf9-27cd6f56cef9	<b>{source}</b> je přetížen a nemůže se pohybovat.	<b>{source}</b> je přetížen.
+5257e2a6-d963-42b5-99b0-045bc86a4fb3	Inspekce <b>{text}</b> selhala.	<b>{text}</b> aktualizována: {description}
+c9de0bcc-93a6-4489-ae75-686c7b25beda	{source} zpozoruje {target}!	<b>{text}</b> prozkoumání neúspěšné.
+7d9e91d7-ba63-4ae3-b137-ecb98e9465ff	{source} získá <b>{count}</b> zkušenosti.	{source} objevila {target}!
+f5b7da82-ace7-467d-a473-acdfcd421256	<b>{source}</b> použije schopnost: <b>{text}</b>	{source} zvýšila <b>{count}</b> zkušenost.
+8adf2cb0-8541-4b98-bc1c-af1ee50f7e7f	<b>{source}</b> použije předmět: <b>{text}</b>	<b>{source}</b> používá dovednost: <b>{text}</b>
+be7942ed-3af1-4fc7-b20b-41966d2f80b7	Získané zkušenosti: <b>{count}</b>	<b>{source}</b> používá předmět: <b>{text}</b>
+0baca1d5-a855-4ae7-aa9f-14723f52f1f0	Atributy	Zvýšení dovednosti: <b>{count}</b>
+bea1766d-e382-4dcc-9aa8-a5bfac216f1e	<b>{count}</b> kostka.	<b>{count}</b> die.
+6bf2e702-4c8a-43f4-952c-21e37bf008b3	<b>{source}</b> způsobí <b>{count}</b> poškození <b>{target}</b>.	<b>{count}</b> die.
+1c08dfeb-7eaf-4ba8-9d13-31c48bb089b2	(Překvapení)	( Plížit se )
+a7d4cad8-2e7e-4067-9962-9db451bd5cdf	<b>{target}</b> utrpěl <b>{count} {description}</b> odčerpání od <b>{source}</b>.	Zdroj poškození: <b>{source}</b>
+e13f20d2-9391-4c61-b00d-8992e49e7f2f	Zdroj: <b>{source}</b>	Zdroj odčerpání: <b>{count} {description}</b>
+44d99318-aaed-4bec-9138-2eecee96aab7	{source} je v tomto souboji imunní vůči {text} kvůli nastavení obtížnosti.	Zdroj: {source}
+9271a863-0068-4969-9b50-717b441c22cb	Účinky křížové výpravy: {0}.	Křižáčké efekty: {0}.

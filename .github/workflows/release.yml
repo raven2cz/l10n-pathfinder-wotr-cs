@@ -1,0 +1,68 @@
+name: Build and release ZIP
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0)'
+        required: true
+        type: string
+      profile:
+        description: 'Which release profile to pack (final or final-en-terms)'
+        required: true
+        default: 'final'
+        type: choice
+        options:
+          - final
+          - final-en-terms
+
+jobs:
+  pack-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Validate release directory exists
+        id: validate
+        run: |
+          set -e
+          REL_DIR="releases/v${{ inputs.version }}/${{ inputs.profile }}"
+          if [ ! -d "$REL_DIR" ]; then
+            echo "Release directory not found: $REL_DIR"
+            exit 1
+          fi
+          echo "rel_dir=$REL_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Create zip
+        id: zip
+        run: |
+          set -e
+          OUT_NAME="wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip"
+          cd "releases/v${{ inputs.version }}"
+          zip -r "../../$OUT_NAME" "${{ inputs.profile }}"
+          cd - > /dev/null
+          echo "out_zip=$OUT_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Compute SHA256
+        id: sha
+        run: |
+          set -e
+          SUM=$(sha256sum "wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip" | awk '{print $1}')
+          echo "$SUM  wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip" > "wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.sha256"
+          echo "sha=$SUM" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release (draft)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v${{ inputs.version }}"
+          name: "WotR Czech v${{ inputs.version }}"
+          draft: true
+          body: |
+            See CHANGELOG / release notes.
+            Profile: ${{ inputs.profile }}
+            SHA256: ${{ steps.sha.outputs.sha }}
+          files: |
+            wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.zip
+            wotr-cs-v${{ inputs.version }}-${{ inputs.profile }}.sha256
+

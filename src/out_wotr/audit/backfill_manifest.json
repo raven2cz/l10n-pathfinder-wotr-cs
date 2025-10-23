@@ -1,0 +1,22 @@
+{
+  "created": [
+    {
+      "category": "MISSING",
+      "batch_no": 110,
+      "jsonl": "req_110.jsonl"
+    }
+  ],
+  "counts": {
+    "missing": 277,
+    "suspect": 3172,
+    "corrupt": 16
+  },
+  "params": {
+    "max_lines": 120,
+    "max_chars": 9000,
+    "batch_max_bytes": 200000,
+    "batch_budget": 900000,
+    "model": "gpt-5-mini"
+  },
+  "timestamp": "2025-10-14T18:31:57"
+}

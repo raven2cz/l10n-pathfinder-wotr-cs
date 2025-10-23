@@ -1,0 +1,62 @@
+[
+  {
+    "batch_no": 1,
+    "requests": 103,
+    "file": "req_001.jsonl",
+    "est_enqueued_tokens": 891771
+  },
+  {
+    "batch_no": 2,
+    "requests": 107,
+    "file": "req_002.jsonl",
+    "est_enqueued_tokens": 895413
+  },
+  {
+    "batch_no": 3,
+    "requests": 106,
+    "file": "req_003.jsonl",
+    "est_enqueued_tokens": 896751
+  },
+  {
+    "batch_no": 4,
+    "requests": 103,
+    "file": "req_004.jsonl",
+    "est_enqueued_tokens": 898892
+  },
+  {
+    "batch_no": 5,
+    "requests": 103,
+    "file": "req_005.jsonl",
+    "est_enqueued_tokens": 899427
+  },
+  {
+    "batch_no": 6,
+    "requests": 103,
+    "file": "req_006.jsonl",
+    "est_enqueued_tokens": 898827
+  },
+  {
+    "batch_no": 7,
+    "requests": 103,
+    "file": "req_007.jsonl",
+    "est_enqueued_tokens": 899601
+  },
+  {
+    "batch_no": 8,
+    "requests": 103,
+    "file": "req_008.jsonl",
+    "est_enqueued_tokens": 899248
+  },
+  {
+    "batch_no": 9,
+    "requests": 103,
+    "file": "req_009.jsonl",
+    "est_enqueued_tokens": 893487
+  },
+  {
+    "batch_no": 10,
+    "requests": 35,
+    "file": "req_010.jsonl",
+    "est_enqueued_tokens": 301140
+  }
+]

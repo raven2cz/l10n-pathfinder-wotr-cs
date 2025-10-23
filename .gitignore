@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.zip
+*.7z
+*.tar*
+*.log
+
+# Project specifics
+src/out_wotr/logs/
+src/out_wotr/states/
+src/deepl/@eaDir/

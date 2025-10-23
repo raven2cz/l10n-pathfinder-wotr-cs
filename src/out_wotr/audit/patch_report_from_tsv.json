@@ -1,0 +1,13 @@
+{
+  "key_type": "idx",
+  "items": 24,
+  "patched": 24,
+  "unchanged": 0,
+  "skipped_empty": 0,
+  "skipped_no_map": 0,
+  "skipped_missing_guid": 0,
+  "tsv": "out_wotr\\audit\\corrections.tsv",
+  "cs_in": "out_wotr\\csCZ.json",
+  "cs_out": "out_wotr\\csCZ.patched.json",
+  "map": "out_wotr\\map.json"
+}

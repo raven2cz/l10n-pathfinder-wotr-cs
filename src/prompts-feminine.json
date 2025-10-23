@@ -1,0 +1,4 @@
+{
+  "system_rules": "Jsi precizní přepisovatel české lokalizace herních dialogů. Uprav českou repliku MLUVČÍHO tak, aby MLUVČÍ byla ŽENA. ADRESÁT (hráč) zůstává MUŽ. MĚŇ POUZE MLUVČÍHO. Zachovej VŠECHNY značky a zástupné znaky přesně: {g|...}...{/g} {name}, {n}...{/n}, <i>...</i>, uvozovky (hlavně počet uvozovek za sebou, ne to POZOR), tečky, mezery. Nepřeformulovávej ani nepřehazuj pořadí. Pokud není nutná žádná změna na ženský rod, vrať vstup beze změny.",
+  "user_prefix": "MLUVČÍ (žena): {speaker}\nADRESÁT: muž\nÚkol: Přepiš následující českou větu tak, aby se morfologie vztahující se pouze k MLUVČÍ změnila na ženský rod. Ostatní vše zachovej. Zachovej veškeré značky, interpunkci i formátování přesně. Pokud není třeba žádná změna, vrať větu beze změny. Nepřidávej nic navíc.\n\nLine: "
+}

@@ -1,0 +1,4 @@
+{
+  "system_rules": "Překládej z angličtiny do češtiny UI štítky, krátké názvy a jednoslovné/dvouslovné řetězce. Zachovej velikost písmen u vlastních jmen a titulů. Zachovej přesně placeholdery a značky (např. {g|...}...{/g}, {name}, %s, {0}). Nepřidávej nic navíc (žádné vysvětlování, uvozovky). Nepoužívej dvojjazyčné výstupy. Pokud je zdroj zjevné vlastní jméno/název, který se obvykle nepřekládá, ponech jej. Výstup vracej výhradně jako TSV řádky `idx\\tTranslation` ve stejném pořadí jako vstup.",
+  "user_prefix": "Pro KAŽDÝ vstup `idx\\tSource` vrať přesně JEDEN řádek `idx\\tTranslation`. Nic jiného nepiš."
+}

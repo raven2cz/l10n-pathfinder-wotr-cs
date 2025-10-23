@@ -1,0 +1,25 @@
+Id	Original	Translation	Reason	
+20921	Scroll	Svitek	short<=2
+18824	Scroll of	Svitek	short<=2
+21278	<b>{count}</b> <b>{target}</b> were resurrected.	<b>{count}</b> <b>{target}</b> byli vzkříšeni.	short<=2
+21279	Round {round} starts.	Kole <b>{target}</b> začíná.	short<=2
+21281	<b>Turn {count}</b>: <b>{source}</b>	<b>Tah {count}</b>: <b>{source}</b>	short<=2
+21282	<b>{count}</b> <b>{target}</b> die.	<b>{count}</b> <b>{target}</b> umírá.	short<=2
+21284	Time passed	Čas plynul	short<=2
+21286	<b>{source}</b>: {text}	<b>{source}</b>: {text}	short<=2
+21287	<b>{source}</b> dies!	<b>{source}</b> umírá!	short<=2
+21290	<b>{source}</b> is encumbered.	<b>{source}</b> je přetížen.	short<=2
+21292	<b>{text}</b> information updated: {description}	<b>{text}</b> aktualizována: {description}	short<=2
+21293	<b>{text}</b> inspect failed.	<b>{text}</b> prozkoumání neúspěšné.	short<=2
+21294	{source} spots {target}!	{source} objevila {target}!	short<=2
+21295	{source} gains <b>{count}</b> experience.	{source} zvýšila <b>{count}</b> zkušenost.	short<=2
+21296	<b>{source}</b> uses ability: <b>{text}</b>	<b>{source}</b> používá dovednost: <b>{text}</b>	short<=2
+21297	<b>{source}</b> uses item: <b>{text}</b>	<b>{source}</b> používá předmět: <b>{text}</b>	short<=2
+21298	Gained experience: <b>{count}</b>	Zvýšení dovednosti: <b>{count}</b>	short<=2
+21270	<b>{count}</b> die.	<b>{count}</b> die.	short<=2
+21271	<b>{count}</b> die.	<b>{count}</b> die.	short<=2
+21154	(Sneak)	( Plížit se )	short<=2
+21259	Damage source: <b>{source}</b>	Zdroj poškození: <b>{source}</b>	short<=2
+21262	Drain result: <b>{count} {description}</b>	Zdroj odčerpání: <b>{count} {description}</b>	short<=2
+21263	Source: <b>{source}</b>	Zdroj: {source}	short<=2
+20054	Crusade effects: {0}.	Křižáčké efekty: {0}.	short<=2

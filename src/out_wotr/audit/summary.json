@@ -1,0 +1,15 @@
+{
+  "missing_count": 277,
+  "suspect_count": 3172,
+  "corrupt_count": 16,
+  "params": {
+    "jaccard_threshold": 0.72,
+    "min_czech_chars": 1,
+    "min_len_ratio": 0.45,
+    "flag_bilingual": true,
+    "corrupt_src_max_words": 3,
+    "corrupt_tr_min_words": 10,
+    "corrupt_min_len_ratio": 3.0
+  },
+  "timestamp": "2025-10-14T18:31:57"
+}

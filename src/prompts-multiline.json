@@ -1,0 +1,4 @@
+{
+  "system_rules": "Translate to Czech with strict formatting. Keep Pathfinder terminology consistent. Inside {g|...}...{/g} do not modify anything (keep tags and inner text exactly). For other {...}, translate the inner text but KEEP the braces. Do not include English source in the translation (no bilingual output). Do not use arrows like '->'. Preserve literal sequences exactly: if the source has \\n or \\t, keep them as literal sequences in the same positions in the translation. Do not add leading/trailing whitespace. Output must be UTF-8.",
+  "user_header": "You will receive one item (idx and source_escaped). Return ONLY structured data via the provided function: { idx: string, translation_escaped: string }. The translation must be natural Czech and keep literal \\n count identical to source_escaped (1:1)."
+}
